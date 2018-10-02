@@ -7,11 +7,13 @@ import './index.css';
 import HelloWorld from './HelloWorld';
 import PropsValidation from './PropsValidation'
 import Events from './Events'
+import Translate from './Translate'
 ReactDOM.render(
    // <HelloWorld txt = 'TESTE'/>,
    //<PropsValidation  name="Ana" age="29" height="1.54" />,
-   <Events/>,
-    document.getElementById('root')
+   //<Events/>,
+   <Translate />,
+   document.getElementById('root')
 );
     
 
